@@ -2,6 +2,8 @@
 
 首先，我们学习如何自定义一个组合控件，其中，优酷菜单是一个典型的自定义组合控件，它的效果图如图1-1 所示：
 
+![](https://github.com/JackChen1999/RotateMenu/blob/master/art/menu9.gif)
+
 ![](https://github.com/JackChen1999/RotateMenu/blob/master/art/menu1.png)
 
 图中由中间往外，分别是一级菜单、二级菜单、三级菜单。其基本用法是:点击一级菜单后加载二级菜单，再点击二级菜单加载三级菜单，如图1-2（c）—(d)—（e）—（f），再点击一级菜单分别隐藏三级、二级菜单
