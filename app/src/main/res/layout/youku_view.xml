@@ -11,7 +11,7 @@
         android:layout_height="140dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/level3" >
+        android:background="@mipmap/level3" >
 
         <!-- channel 1 -->
 
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="8dp"
-            android:src="@drawable/channel1" />
+            android:src="@mipmap/channel1" />
 
         <!-- channel 2 -->
 
@@ -32,7 +32,7 @@
             android:layout_above="@id/channel1"
             android:layout_marginBottom="12dp"
             android:layout_marginLeft="28dp"
-            android:src="@drawable/channel2" />
+            android:src="@mipmap/channel2" />
 
         <!-- channel 3 -->
 
@@ -42,7 +42,7 @@
             android:layout_above="@id/channel2"
             android:layout_marginBottom="12dp"
             android:layout_marginLeft="64dp"
-            android:src="@drawable/channel3" />
+            android:src="@mipmap/channel3" />
 
         <!-- channel 4 -->
 
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
-            android:src="@drawable/channel4" />
+            android:src="@mipmap/channel4" />
 
         <!-- channel 7 -->
 
@@ -62,7 +62,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="8dp"
-            android:src="@drawable/channel7" />
+            android:src="@mipmap/channel7" />
 
         <!-- channel 6 -->
 
@@ -74,7 +74,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginBottom="12dp"
             android:layout_marginRight="28dp"
-            android:src="@drawable/channel6" />
+            android:src="@mipmap/channel6" />
         <!-- channel 5 -->
 
         <ImageView
@@ -84,7 +84,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginBottom="12dp"
             android:layout_marginRight="64dp"
-            android:src="@drawable/channel5" />
+            android:src="@mipmap/channel5" />
     </RelativeLayout>
 
     <!-- 中间的布局 -->
@@ -95,7 +95,7 @@
         android:layout_height="90dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/level2" >
+        android:background="@mipmap/level2" >
 
         <!-- 搜索 -->
 
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="8dp"
-            android:src="@drawable/icon_search" />
+            android:src="@mipmap/icon_search" />
 
         <!-- 菜单按钮 -->
 
@@ -114,7 +114,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
-            android:src="@drawable/icon_menu" />
+            android:src="@mipmap/icon_menu" />
 
         <!-- 优酷按钮 -->
 
@@ -124,7 +124,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="8dp"
-            android:src="@drawable/icon_myyouku" />
+            android:src="@mipmap/icon_myyouku" />
     </RelativeLayout>
 
     <!-- 内侧 -->
@@ -135,7 +135,7 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/level1" >
+        android:background="@mipmap/level1" >
 
         <!-- home的菜单按钮 -->
 
@@ -144,7 +144,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:src="@drawable/icon_home" />
+            android:src="@mipmap/icon_home" />
     </RelativeLayout>
 
 </RelativeLayout>

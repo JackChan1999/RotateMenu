@@ -249,7 +249,6 @@ public class YoukuView extends RelativeLayout implements OnClickListener {
 
 			@Override
 			public void onAnimationRepeat(Animation animation) {
-				// TODO Auto-generated method stub
 
 			}
 
@@ -288,7 +287,6 @@ public class YoukuView extends RelativeLayout implements OnClickListener {
 
 			@Override
 			public void onAnimationRepeat(Animation animation) {
-				// TODO Auto-generated method stub
 
 			}
 

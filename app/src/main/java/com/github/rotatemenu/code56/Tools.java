@@ -44,10 +44,11 @@ public class Tools {
 
     public static void hideView(ViewGroup view, int startOffset) {
         /**
-         * 第一个参数：从那个角度开始旋转 第二个参数：要旋转到的角度 第三个参数：旋转中心的，X轴坐标 第四个参数：旋转中心的，Y轴坐标
+         * 第一个参数：从那个角度开始旋转
+         * 第二个参数：要旋转到的角度
+         * 第三个参数：旋转中心的，X轴坐标 第四个参数：旋转中心的，Y轴坐标
          */
-        RotateAnimation ra = new RotateAnimation(0, 180, view.getWidth() / 2,
-                view.getHeight());
+        RotateAnimation ra = new RotateAnimation(0, 180, view.getWidth() / 2, view.getHeight());
         ra.setDuration(500);
         ra.setFillAfter(true);// 设置View的状态，出于播放完成的状态
         // 设置多长时间后才播放动画
@@ -65,8 +66,7 @@ public class Tools {
     }
 
     public static void showView(ViewGroup view, int startOffset) {
-        RotateAnimation ra = new RotateAnimation(180, 360, view.getWidth() / 2,
-                view.getHeight());
+        RotateAnimation ra = new RotateAnimation(180, 360, view.getWidth() / 2, view.getHeight());
         ra.setDuration(500);
         ra.setFillAfter(true);// 设置View的状态，出于播放完成的状态
         ra.setStartOffset(startOffset);
