@@ -21,7 +21,7 @@ import android.widget.RelativeLayout;
  * Version：1.0
  * time：2016/2/28 21:47
  * des ：三级旋转菜单
- * gitVersion：$Rev$
+ * gitVersion： 2.12.0.windows.1
  * updateAuthor：$Author$
  * updateDate：$Date$
  * updateDes：${TODO}
